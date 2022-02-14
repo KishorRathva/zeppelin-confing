@@ -1,0 +1,22 @@
+{
+  "name": "zeppelin-que-spell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cytoscape": "^3.20.0",
+    "cytoscape-dagre": "2.2.2",
+    "cytoscape-euler": "1.2.1",
+    "cytoscape-even-parent": "^1.1.1",
+    "zeppelin-spell": "^1.0.0"
+  },
+  "helium": {
+    "icon": "<i class='fa fa-repeat'></i>",
+    "spell": {
+      "magic": "%que",
+      "usage": "%que <TEXT>"
+    }
+  }
+}
